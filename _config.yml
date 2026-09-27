@@ -1,0 +1,29 @@
+title: "Architecture des ordinateurs — de la porte logique au CPU"
+description: "Cours et projet fil rouge pour construire un CPU 8 bits avec Digital Logic Sim"
+baseurl: "" # à adapter si le repo n'est pas servi à la racine (ex: "/cours-archi-ordinateur")
+url: ""      # à remplacer par ton URL GitHub Pages, ex: "https://tonpseudo.github.io"
+
+remote_theme: just-the-docs/just-the-docs
+
+color_scheme: dark
+search_enabled: true
+nav_sort: case_insensitive
+
+heading_anchors: true
+
+aux_links:
+  "Digital Logic Sim (GitHub)":
+    - "https://github.com/SebLague/Digital-Logic-Sim"
+
+aux_links_new_tab: true
+
+footer_content: "Cours d'architecture des ordinateurs — support pédagogique. Aucune correction fournie : c'est voulu !"
+
+plugins:
+  - jekyll-remote-theme
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
